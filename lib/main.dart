@@ -1,6 +1,6 @@
 import 'package:addstore/count/theme_data.dart';
 import 'package:addstore/provider/theme_provider.dart';
-import 'package:addstore/screen/home.dart';
+import 'package:addstore/screen/btm_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
             debugShowCheckedModeBanner: false,
             title: 'Flutter Demo',
             theme: Style.themeData(themeProvider.getDarkTheme, context),
-            home: Home(),
+            home: BtmNav(),
           );
         },
       ),
